@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #004466, #000000);
+  color: #fff;
+  height: 5000px;
+  position: relative;
+}
+
+#sea-container {
+  position: relative;
+  width: 100%;
+}
+
+.creature {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.creature img {
+  width: 400px;
+  max-width: 80%;
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
+}
+
+.depth-indicator {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 8px 15px;
+  border-radius: 8px;
+  font-size: 1.2rem;
+}
+
+
+/* WELCOME SCREEN */
+#welcome-screen {
+  position: relative;
+  height: 100vh;
+  background: linear-gradient(to bottom, #00334d, #001a26);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 10;
+}
+
+#welcome-screen h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+#welcome-screen p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #a0d9ff;
+}
+
+.arrow {
+  font-size: 3rem;
+  animation: bounce 1.5s infinite;
+  color: #a0d9ff;
+}
+
+/* BOUNCE ANIMATION */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(15px);
+  }
+}

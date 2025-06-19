@@ -1,0 +1,45 @@
+[
+  {
+    "name": "క్లోన్ ఫిష్ (Clownfish)",
+    "depth": 100,
+    "left": "25%",
+    "image": "images/clownfish-removebg-preview.png",
+    "description": "Famous from Finding Nemo."
+  },
+  {
+    "name": "బ్లూ ట్యాంగ్ (Blue Tang)",
+    "depth": 100,
+    "left": "75%",
+    "image": "images/bluetang-removebg-preview.png",
+    "description": "Also known as Dory!"
+  },
+  {
+    "name": "జెయింట్ ఐసోపాడ్ (Giant Isopod)",
+    "depth": 800,
+    "left": "50%",
+    "image": "images/GiantIsopod-removebg-preview.png",
+    "description": "Creepy crustacean."
+  },
+  {
+    "name": "గాబ్లిన్ షార్క్ (Goblin Shark)",
+    "depth": 1200,
+    "left": "50%",
+    "image": "images/GoblinShark-removebg-preview.png",
+    "description": "Rare deep-sea predator."
+  },
+  {
+    "name": "డంబో ఆక్టోపస్ (Dumbo Octopus)",
+    "depth": 3500,
+    "left": "50%",
+    "image": "images/DumboOctopus-removebg-preview.png",
+    "description": "The cutie of the deep."
+  },
+
+   {
+    "name": "టైటానిక్ (Titanic)",
+    "depth": 3800,
+    "left": "50%",
+    "image": "images/titanic-removebg-preview.png",
+    "description": "The cutie of the deep."
+  }
+]
